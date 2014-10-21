@@ -1,36 +1,27 @@
-html, body {
- margin: 0;
- padding: 0;
- }
 body {
- background-color: white; 
- font-family: Verdana, sans-serif; 
- font-size: 100%;
- }
-h1 {
- font-size: 200%; 
- color: navy; 
- text-align: center;
- }
-h2 {
- font-size: 150%; 
- color: red; 
- padding-left: 15px;
- }
-p,ul,li,td {
- color: black; 
- }
-a:link {
- color: green;
- text-decoration: underline;
- }
-a:visited {
- color: gray;
- }
-a:hover {
- color: red;
- text-decoration: none;
+  font-family: helvetica, light;
 }
-a:active, a:focus {
- color: red;
+
+article {
+  height: 350px;
+  width: 350px;
+}
+section {
+  height: 350px;
+}
+#title {
+  background: url(banniere1.png) no-repeat center center;
+  background-size: cover;
+}
+#title2 {
+  background: url(banniere2.png) no-repeat center center;
+  background-size: cover;
+}
+#title3 {
+  background: url(banniere3.png) no-repeat center center;
+  background-size: cover;
+}
+#title4 {
+  background: url(banniere4.png) no-repeat center center;
+  background-size: cover;
 }
