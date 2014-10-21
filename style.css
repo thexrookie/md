@@ -1,7 +1,6 @@
 body {
-  font-family: helvetica, light;
+  background-color: #FFE081;
 }
-
 article {
   height: 350px;
   width: 350px;
@@ -9,19 +8,26 @@ article {
 section {
   height: 350px;
 }
-#title {
+#blank {
+  height: 350px;
+  width: 350px;
+  font-family: helvetica, light;
+  font-size: 18px;
+  text-align: justify;
+}
+#banniere1 {
   background: url(banniere1.png) no-repeat center center;
   background-size: cover;
 }
-#title2 {
+#banniere2 {
   background: url(banniere2.png) no-repeat center center;
   background-size: cover;
 }
-#title3 {
+#banniere3 {
   background: url(banniere3.png) no-repeat center center;
   background-size: cover;
 }
-#title4 {
+#banniere4 {
   background: url(banniere4.png) no-repeat center center;
   background-size: cover;
 }
