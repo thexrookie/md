@@ -2,17 +2,29 @@ body {
 	background: url(logo.png) no-repeat center center fixed;
 	background-size: 400px,400px;
 	background-color: #FFE081;
-	margin: 0;
+	margin-right: 0px;
 	padding: 0;
 }
 
 section {
-	height: 350px;
+	height: 300px;
 }
+
+/*div {
+	height: 300px;
+	width: 350px;
+	font-family: helvetica;
+	font-size: 18px;
+}*/
 
 .box {
 	margin: 10px 10px 10px 10px;
 	padding: 10px 10px;
+	text-align: center;
+}
+
+.box img {
+	display: inline;
 }
 
 #banniere1 {
@@ -21,61 +33,22 @@ section {
 }
 
 #blank1 {
-
-}
-
-#banniere2 {
-	background: url(banniere2.png) no-repeat center center;
-	background-size: cover;
-}
-
-#blank2 {
-	text-align: justify;
-	margin-left: 70%;
-}
-
-#banniere3 {
-	background: url(banniere3.png) no-repeat center center;
-	background-size: cover;
-}
-
-#blank3 {
 	
 }
 
-#banniere4 {
-	background: url(banniere4.png) no-repeat center center;
-	background-size: cover;
+#blank2 {
+/*	margin-left: 70%;*/
 }
 
 #blank4 {
-	text-align: center;
-	margin-left: 70%;
+/*	margin-left: 70%;*/
 }
 
-#banniere5 {
-	background: url(banniere5.png) no-repeat center center;
-	background-size: cover;
-	color: white;
+#blank5 {
+/*	width: 500px;*/
 }
 
-div {
-	height: 350px;
-	width: 350px;
-}
-
-article {
-	height: 350px;
-	width: 350px;
-	font-family: helvetica;
-	font-size: 18px;
-	text-align: justify;
-}
-
-#fin {
-
-	font-family: helvetica;
-	font-size: 18px;
-	text-align: center;
-	margin-left: 130%;
+.img-responsive {
+	max-width: 100%;
+	max-height: 100%;
 }
