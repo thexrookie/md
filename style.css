@@ -7,15 +7,8 @@ body {
 }
 
 section {
-	height: 300px;
+	height: 400px;
 }
-
-/*div {
-	height: 300px;
-	width: 350px;
-	font-family: helvetica;
-	font-size: 18px;
-}*/
 
 .box {
 	margin: 10px 10px 10px 10px;
@@ -32,20 +25,8 @@ section {
 	background-size: cover;
 }
 
-#blank1 {
-	
-}
-
-#blank2 {
-/*	margin-left: 70%;*/
-}
-
-#blank4 {
-/*	margin-left: 70%;*/
-}
-
-#blank5 {
-/*	width: 500px;*/
+#banniere13 {
+	background: url(banniere23.png) no-repeat center center;
 }
 
 .img-responsive {
