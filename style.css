@@ -20,13 +20,6 @@ section {
 	display: inline;
 }
 
-.box2 {
-	margin: 10px 10px 10px 10px;
-	padding: 10px 10px;
-	text-align: center;
-	display: inline-block;
-}
-
 #banniere1 {
 	background: url(banniere1.png) no-repeat center center;
 	background-size: cover;
@@ -34,10 +27,13 @@ section {
 
 #banniere13 {
 	background: url(banniere23.png) no-repeat center center;
-	background-position: center;
 }
 
 .img-responsive {
 	max-width: 100%;
 	max-height: auto;
+}
+
+.box a {
+	color: black;
 }
